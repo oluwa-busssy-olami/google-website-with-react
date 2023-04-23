@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+.googlelogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.googlelogo img {
+  height: 90px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 20px 20px 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  outline: none;
+  font-size: 16px;
+}
+
+.positionLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  /* position: relative; */
+}
+
+.input-field::placeholder {
+  font-size: 1rem;
+  /* text-indent: 60px; */
+}
+
+/* .searchlogo {
+  position: absolute;
+  top: -40px;
+  left: 675px;
+  height: 18px;
+} */
+
+.miclogo {
+  /* position: absolute;
+  top: -40px; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  /* right: 670px; */
+}
+
+form input {
+  outline: 0;
+  border: 0;
+}
+
+.buttonsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttonsection button {
+  margin-left: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border: 4px;
+  font-size: 14px;
+}
+
+.buttonsection button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.languagelink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.languagelink a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: small;
+}
+
+.languagelink a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 748px) {
+  .googlelogo img {
+    height: 20px;
+  }
+  form {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+  }
+  input[type="text"] {
+    padding: 10px 15px 10px 20px;
+    font-size: 16px;
+  }
+  .buttonsection button {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 4px;
+    font-size: 10px;
+  }
+  /* .searchlogo {
+    left: 20px;
+    height: 10px;
+    top: -27px;
+  } */
+  /* .miclogo {
+    height: 12px;
+  } */
+  .languagelink a {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .googlelogo {
+    margin-top: 160px;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+}
