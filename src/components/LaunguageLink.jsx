@@ -3,7 +3,7 @@
 export default function LaunguageLink() {
   return (
     <div className="languagelink">
-      Google offered in:
+      <pre style={{ fontSize: "10px" }}>Google offered in:</pre>
       <a href="#">Hausa</a>
       <a href="#">Igbo</a>
       <a href="#">Ede Yoruba</a>
